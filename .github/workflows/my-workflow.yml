@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   action:
-    runs-on: "jslaime-01"
+    runs-on: [self-hosted, jslaime-01]
     steps:
       - uses: actions/checkout@v1
 
