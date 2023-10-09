@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   action:
-    runs-on: "ubuntu-latest"
+    runs-on: "jslaime-01"
     steps:
       - uses: actions/checkout@v1
 
